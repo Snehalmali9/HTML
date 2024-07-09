@@ -1,0 +1,10 @@
+body{
+    background-color: tan;
+}
+
+aside{
+    border: solid red;
+    text-align: center;
+    color: white;
+    background-color: black;
+}

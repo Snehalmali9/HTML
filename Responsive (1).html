@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .left{
+            background-color: aqua;
+            padding: 20px;
+            width: 30%;
+            float: left;
+        }
+        .main{
+            background-color: coral;
+            padding: 20px;
+            width: 40%;
+            float: left;
+        }
+        .right{
+            background-color: violet;
+            padding: 20px;
+            width: 30%;
+            float: left;
+        }
+        @media (max-width:700px){
+            .left,.main,.right{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Web Design</h1>
+    <!-- <img src="assets/images/img_chania.jpg" alt="">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro sequi illo ipsum assumenda, necessitatibus obcaecati? Illo voluptatem beatae aliquid sit veniam, excepturi mollitia obcaec sit amet consectetur adipisicing elit. Saepe porro sequi illo ipsum assumenda, necessitatibus obcaecati? Illo voluptatem beatae aliquid sit veniam, excepturi mollitia obcaec sit amet consectetur adipisicing elit. Saepe porro sequi illo ipsum assumenda, necessitatibus obcaecati? Illo voluptatem beatae aliquid sit veniam, excepturi mollitia obcaec sit amet consectetur adipisicing elit. Saepe porro sequi illo ipsum assumenda, necessitatibus obcaecati? Illo voluptatem beatae aliquid sit veniam, excepturi mollitia obcaecati. Fugit libero expedita eaque vitae.</p> -->
+    <!-- <img src="assets/images/img_girl.jpg" style="max-width: 100%;height: auto;" alt=""> -->
+
+    <div class="left">
+        <p>Left - Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="main">
+        <p>Main - Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="right">
+        <p>Right - Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

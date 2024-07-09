@@ -1,0 +1,36 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Simple Name Selector  */
+body{
+    background-color: tan;
+}
+
+ol{
+    background-color: violet;
+}
+ol li{
+    background-color: wheat;
+}
+
+/* Class Selector */
+.mynewclass{
+    background-color: tomato;
+    border: solid white;
+}
+
+/* ID Selector */
+#newId{
+    width: 50%;
+    text-align: center;
+    background-color: coral;
+}
+
+/* Grouping Selector */
+article,aside,footer{
+    background-color: yellow;
+}

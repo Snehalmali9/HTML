@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="text-align: center;">
+
+    <p id="hlo">Hello</p>
+    <h1 id="hlo2">Hello</h1><br><br>
+    <button onclick="demo()">Submit</button>
+    <img onclick="demo()" src="js.png" alt="">
+
+    <script>
+
+
+        // document.getElementById("hlo").innerHTML = "hii";
+        // window.alert("hiii");
+
+        // console.log(window);
+
+        function demo() {
+            // alert("Demo Function Call");
+            document.getElementById("hlo").innerHTML = "<h1>JavaScript</h1>"
+            document.getElementById("hlo2").innerHTML = "React / Angular"
+            document.getElementById("hlo").style.color = "red";
+        };
+
+        // demo();
+
+    </script>
+</body>
+
+</html>

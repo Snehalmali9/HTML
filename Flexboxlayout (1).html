@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }  
+        section{
+            display: flex;
+        } 
+        nav{
+            background-color: aqua;
+            flex: 5;
+        }
+        article{
+            background-color: coral;
+            flex: 10;
+        }
+        div{
+            background-color: violet;
+            flex: 10;
+        }
+        aside{
+            background-color: tan;
+            flex: 5;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 80px;
+        }
+
+        @media (max-width:800px){
+            section{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cities</h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">Kolhapur City</a></li>
+                <li><a href="">Sangli City</a></li>
+                <li><a href="">Miraj City</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Kolhapur City</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magni temporibus maxime doloribus
+                doloremque animi qui, ab accusantium dolorum nulla minima dolor illum amet molestiae explicabo placeat
+                ut assumenda laudantium velit sit aliquam? Quod, reprehenderit aspernatur nam accusantium illum a harum
+                accusamus dignissimos deleniti magnam asperiores voluptatibus nostrum neque quo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magni temporibus maxime doloribus
+                doloremque animi qui, ab accusantium dolorum nulla minima dolor illum amet molestiae explicabo placeat
+                ut assumenda laudantium velit sit aliquam? Quod, reprehenderit aspernatur nam accusantium illum a harum
+                accusamus dignissimos deleniti magnam asperiores voluptatibus nostrum neque quo.</p>
+        </article>
+        <div>
+            <h1>Miraj City</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magni temporibus maxime doloribus
+                doloremque animi qui, ab accusantium dolorum nulla minima dolor illum amet molestiae explicabo placeat
+                ut assumenda laudantium velit sit aliquam? Quod, reprehenderit aspernatur nam accusantium illum a harum
+                accusamus dignissimos deleniti magnam asperiores voluptatibus nostrum neque quo.</p>
+
+        </div>
+
+        <aside>
+            <h1>Sangli City</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magni temporibus maxime doloribus
+                doloremque animi qui, ab accusantium dolorum nulla minima dolor illum amet molestiae explicabo placeat
+                ut assumenda laudantium velit sit aliquam? Quod, reprehenderit aspernatur nam accusantium illum a harum
+                accusamus dignissimos deleniti magnam asperiores voluptatibus nostrum neque quo.</p>
+
+        </aside>
+
+    </section>
+
+
+    <footer>
+        <h4>Footer content</h4>
+    </footer>
+</body>
+
+</html>
